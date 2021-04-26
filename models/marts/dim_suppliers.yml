@@ -1,0 +1,10 @@
+version: 2
+
+models: 
+  - name: dim_suppliers
+    columns:
+      - name: supplier_sk
+        description: Chave primaria da tabela
+        tests:
+          - unique
+          - not_null
